@@ -18,9 +18,9 @@ function setup() {
 
 	paper = new Paper(100,520,50,50);
 
-	//dustbin1 = new Dustbin(590,620,10,70);
-	//dustbin2 = new Dustbin(715,620,10,70);
-	dustbin3 = new Dustbin(650,610,100,100);
+	dustbin1 = new Dustbin(590,620,10,200);
+	dustbin2 = new Dustbin(715,620,10,200);
+	dustbin3 = new Dustbin(650,610,10,100);
 
 	ground = new Ground(400,685,1000,60);
  
@@ -44,8 +44,8 @@ function draw() {
 
   ground.display();
 
-  //dustbin1.display();
-  //dustbin2.display();
+  dustbin1.display();
+  dustbin2.display();
   dustbin3.display(); 
 
   paper.display();
